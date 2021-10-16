@@ -11,6 +11,12 @@
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+
+        <!-- Text Input Fields -->
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+        <!-- Radio Buttons -->
+        <item name="radioButtonStyle">@style/Widget.Tipsy.CompoundButton.RadioButton</item>
+        <!-- Switches -->
+        <item name="switchStyle">@style/Widget.Tipsy.CompoundButton.Switch</item>
     </style>
 </resources>
